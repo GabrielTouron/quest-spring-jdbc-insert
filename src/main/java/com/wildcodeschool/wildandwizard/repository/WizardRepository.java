@@ -15,8 +15,8 @@ import util.JdbcUtils;
 public class WizardRepository {
 
     private final static String DB_URL = "jdbc:mysql://localhost:3306/spring_jdbc_quest?serverTimezone=GMT";
-    private final static String DB_USER = "h4rryp0tt3r";
-    private final static String DB_PASSWORD = "Horcrux4life!";
+    private final static String DB_USER = "wcs";
+    private final static String DB_PASSWORD = "wcs";
 
     public Wizard save(String firstName, String lastName, Date birthday,
                        String birthPlace, String biography, boolean muggle) {
